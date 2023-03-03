@@ -4,7 +4,7 @@ const Books = ({ title, author }) => (
       <div className="book flexRow">
         {' '}
         <li>
-        author:
+          author:
           {author}
           {' '}
           title:
