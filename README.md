@@ -57,9 +57,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **do calculation**
-- **display calculated answers**
-- **interaction with users**
+- **Display book**
+- **List book**
+- **add and delete book**
 
 <p align="right">(<a href="#readme-top">back to top</a></p>
 
