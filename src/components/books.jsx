@@ -4,11 +4,11 @@ const Books = ({ title, author }) => (
       <div className="book flexRow">
         {' '}
         <li>
+        author:
+          {author}
+          {' '}
           title:
           {title}
-          {' '}
-          author:
-          {author}
         </li>
         <button type="submit" className="remove">remove</button>
       </div>
