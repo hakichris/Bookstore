@@ -4,11 +4,11 @@ const Navbar = () => (
   <nav>
     <ul>
       <li>
-        <Link to='/'>Books</Link>
+        <Link to="/">Books</Link>
       </li>
-      <div className='verticalLine' />
+      <div className="verticalLine" />
       <li>
-        <Link to='/categories'>Categories</Link>
+        <Link to="/categories">Categories</Link>
       </li>
     </ul>
   </nav>
