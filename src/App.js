@@ -5,7 +5,6 @@ import './App.css';
 import Categories from './components/categories';
 import Navbar from './components/Navbar';
 
-
 function App() {
   return (
     <>
