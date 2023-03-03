@@ -1,6 +1,7 @@
-const Categories = () => {
+const Categories = () => (
 
-<p>this is the best book category</p>
+<button type="submit">Check Status</button>
 
-}
+);
+
 export default Categories;
