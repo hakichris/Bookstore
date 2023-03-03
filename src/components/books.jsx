@@ -1,3 +1,4 @@
+import Form from './Form';
 const Books = ({ title, author }) => (
   <div>
     <ul>
@@ -13,6 +14,7 @@ const Books = ({ title, author }) => (
         <button type="submit" className="remove">remove</button>
       </div>
     </ul>
+    <Form />
   </div>
 
 );
