@@ -1,28 +1,28 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  book : [],
-}
+  book: [],
+};
 
 export const bookSlice = createSlice({
   name: 'book',
   initialState,
   reducers: {
-    Addbook: (state,action) => {
+    Addbook: (state, action) => {
       state.push({
         id: action.payload.id,
         title: action.payload.title,
         author: action.payload.author,
-        category: action.payload.category
-      })
+        category: action.payload.category,
+      });
     },
     Removebook: (state, action) => {
-        state.book = state.book.filter((item) => item.item_id !== action.payload )
+      state.book.filter((item) => item.item_id !== action.payload);
     },
   },
-})
+});
 
 // Action creators are generated for each case reducer function
-export const { Addbook, Removebook } = bookSlice.actions
+export const { Addbook, Removebook } = bookSlice.actions;
 
-export default bookSlice.reducer
+export default bookSlice.reducer;
