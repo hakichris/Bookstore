@@ -9,7 +9,7 @@ export const bookSlice = createSlice({
   initialState,
   reducers: {
     Addbook: (state, action) => {
-      state.push({
+      state.book.push({
         id: action.payload.id,
         title: action.payload.title,
         author: action.payload.author,
@@ -17,7 +17,8 @@ export const bookSlice = createSlice({
       });
     },
     Removebook: (state, action) => {
-      state.book.filter((item) => item.id !== action.payload);
+      const NewState = { ...state };
+      NewState.book = state.book.filter((item) => item.id !== action.payload);
     },
   },
 });
