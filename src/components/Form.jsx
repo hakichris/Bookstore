@@ -11,7 +11,7 @@ const initials = {
 const Form = () => {
   const [state, setState] = useState(initials);
   const dispatch = useDispatch();
-  const Array = useSelector((state) => state.bookReducer.books);
+  const Array = useSelector((state) => state.booksReducer.books);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,13 +20,14 @@ const Form = () => {
 
   const handleSubmit = () => {
     dispatch(Addbook(state));
+    setState(initials)
   };
 
   return (
     <div>
       <form className="Form flexColumn" method="post">
-        <input type="text" id="author" name="author" placeholder="Author" onClick={handleChange} required />
-        <input type="text" id="title" name="bookTitle" placeholder="Book Title" onClick={handleChange} required />
+        <input type="text" value={state.author} id="author" name="author" placeholder="Author" onChange={handleChange} required />
+        <input type="text" value={state.title} id="title" name="title" placeholder="Book Title" onChange={handleChange} required />
         <button type="button" onClick={handleSubmit}>Submit</button>
       </form>
     </div>
