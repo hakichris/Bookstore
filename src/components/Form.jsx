@@ -28,7 +28,7 @@ const Form = () => {
       <form className="Form flexColumn" method="post">
         <input type="text" value={state.author} id="author" name="author" placeholder="Author" onChange={handleChange} required />
         <input type="text" value={state.title} id="title" name="title" placeholder="Book Title" onChange={handleChange} required />
-        <button type="button" onClick={handleSubmit}>Submit</button>
+        <button type="button" onClick={handleSubmit}>Add a Book</button>
       </form>
     </div>
   );
