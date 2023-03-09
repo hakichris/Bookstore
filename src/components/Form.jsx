@@ -20,7 +20,7 @@ const Form = () => {
 
   const handleSubmit = () => {
     dispatch(Addbook(state));
-    setState(initials)
+    setState(initials);
   };
 
   return (

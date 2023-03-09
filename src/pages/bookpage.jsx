@@ -5,7 +5,6 @@ import Form from '../components/Form';
 
 const Books = () => {
   const bookArray = useSelector((state) => state.booksReducer.books);
-  console.log(bookArray);
 
   return (
     <>

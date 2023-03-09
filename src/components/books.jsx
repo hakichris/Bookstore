@@ -4,7 +4,6 @@ import { Removebook } from '../redux/books/booksSlice';
 
 const Book = ({ title, author, id }) => {
   const dispatch = useDispatch();
-  console.log(title, author);
   return (
     <div className="book flexRow">
       <h2>{author}</h2>
