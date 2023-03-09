@@ -1,17 +1,16 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Removebook } from '../redux/books/booksSlice';
-import { Checkstatus } from '../redux/categories/categoriesSlice';
 
 const Book = ({ title, author, id }) => {
   const dispatch = useDispatch();
+  console.log(title, author);
   return (
     <div className="book flexRow">
       <h2>{author}</h2>
       {' '}
       <p>{title}</p>
       <div className="actions">
-        <button type="button" onClick={() => dispatch(Checkstatus(id))}>Check Status</button>
         <button type="button" onClick={() => dispatch(Removebook(id))}>remove</button>
       </div>
     </div>
