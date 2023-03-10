@@ -1,3 +1,5 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
+
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
