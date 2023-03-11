@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@200;300;400;500&display=swap');
 
-
 .Bookstore-CMS {
   width: 15rem;
   height: 2.313rem;
@@ -16,7 +15,6 @@
 }
 
 .user {
-
   padding: 0.875rem;
   border: 1px solid #e8e8e8;
   border-radius: 50%;
@@ -218,7 +216,7 @@
   border-radius: 3px;
   font-weight: 300;
 }
-  
+
 /*  form style starts here */
 
 .mainform {
