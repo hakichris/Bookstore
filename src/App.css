@@ -48,7 +48,6 @@
   text-transform: uppercase;
   font-size: 0.813rem;
   letter-spacing: 1.9px;
-  letter-spacing: 1.9px;
 }
 
 .Line {
@@ -71,7 +70,7 @@
   margin-bottom: 2rem;
 }
 
-/*  book style starts here*/
+/*  book style starts here */
 .container {
   width: 60%;
   margin: 2.313rem 6.25rem 0;
@@ -115,7 +114,7 @@
   transform: rotate(45deg);
 }
 
-.bookdetails{
+.bookdetails {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -138,7 +137,7 @@
 .author {
   color: #4386bf;
   opacity: 0.7;
-   margin: 0;
+  margin: 0;
 }
 
 .button {
@@ -183,7 +182,7 @@
   width: 7.875rem;
   height: 1.125rem;
   opacity: 0.5;
-  font-family: 'RobotoSlab' sans-serif;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -207,13 +206,12 @@
 }
 
 
-/*  form style starts here*/
+/*  form style starts here */
 
 .mainform {
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   margin: 1.313rem 4.25rem 0;
 }
-
 
 .Form {
   font-family: 'Montserrat', sans-serif;
@@ -259,6 +257,3 @@ form button,
   margin: 0.75rem 1.063rem 0 0.938rem;
   border: solid 1px #e8e8e8;
 }
-
-
-
